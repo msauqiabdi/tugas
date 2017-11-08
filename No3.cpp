@@ -11,7 +11,7 @@ int main(){
 	cout<<"Lama Jam Kerja Perminggu = " ;cin>>jk;
 	cout<<" ---------------------" <<endl;
 	if (jk>40){
-		cout<<"Gaji Pokok\t\t = Rp 2000.000"<<endl;
+		cout<<"Gaji Pokok\t\t = Rp 2.000.000"<<endl;
 		cout<<"Jam Kerja Standard\t = 40 jam"<<endl;
 		lb=jk-40;
 		cout<<"Lembur\t\t\t = "<<lb<<" Jam"<<endl;
