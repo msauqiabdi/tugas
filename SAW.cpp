@@ -38,30 +38,14 @@ int main(){
 	for(int i=0;i<5;i++){
 		cout << w[i]<<" | ";
 	}cout <<endl;//Akhir dari Bobot W
-	w1=5;
-	w2=3;
-	w3=4;
-	w4=4;
-	w5=2;
-	
-	a1c1=4;
-	a1c2=4;
-	a1c3=5;
-	a1c4=3;
-	a1c5=3;
-	
-	a2c1=3;
-	a2c2=3;
-	a2c3=4;
-	a2c4=2;
-	a2c5=3;
-	
-	a3c1=5;
-	a3c2=4;
-	a3c3=2;
-	a3c4=2;
-	a3c5=2;
-	
+	// 4. Matrix R * W
+	cout <<endl<< "MATRIKS R * W : "<<endl; 
+	double RWac[3][5];
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			RWac[i][j]=Rac[i][j]*w[j]; cout <<RWac[i][j]<<" | ";
+		}cout <<endl;
+		
 	// AMBIL NILAI MAX TIAP KRITERIA
 	mc1=max(a1c1,max(a2c1,a3c1));
 	mc2=max(a1c2,max(a2c2,a3c2));
